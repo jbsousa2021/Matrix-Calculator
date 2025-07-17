@@ -57,23 +57,13 @@ def matmat(m, a):
     return product
 
 
-#m0 = input("Insert row one of your matrix\n").split(" ")
-#m1 = input("Insert row two of your matrix\n").split(" ")
-#m2 = input("Insert row three of your matrix\n").split(" ")
-#x = input("Insert elements of your vector\n").split(" ")
-#print(row0)
-#m = [m0, m1, m2]
-#b0 = int(m[0][0])*int(x[0]) + int(m[0][1])*int(x[1]) + int(m[0][2])*int(x[2])
-#b1 = int(m[1][0])*int(x[0]) + int(m[1][1])*int(x[1]) + int(m[1][2])*int(x[2])
-#b2 = int(m[2][0])*int(x[0]) + int(m[2][1])*int(x[1]) + int(m[2][2])*int(x[2])
-#b = [b0, b1, b2]
-#print(b)
+
 
 #input: 2d array matrix and 1d array vector
 #output: product of the input matrix and input vector
-#print(matvec(m, x))
+
 print(matmat(m, v))
-#print(matvec(m, v))
+
 
 print(v)
 print(m)
